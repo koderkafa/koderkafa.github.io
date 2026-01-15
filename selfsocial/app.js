@@ -72,7 +72,7 @@ function render() {
     const card = document.createElement("div");
     card.className = "card";
 
-    const avatarChar = (p.id === INTRO_ID) ? "SS" : avatarLetter;
+    const avatarChar = (p.id === INTRO_ID) ? "S" : avatarLetter;
 
     card.innerHTML = `
       <div class="post-header">
